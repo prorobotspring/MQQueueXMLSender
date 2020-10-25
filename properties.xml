@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<!-- Propiedades para la configuracion de MQQueueXMLSender-->
+	<comment>Mensajes de validacion manejados por el MQQueueXMLSender</comment>
+	
+	<entry key="NAME">MQQueueXMLSender</entry>
+
+	<!-- Mensajes de validacion de formato para errores funcionales -->	
+	<entry key="ERROR_FUN_00">BCRM-03000-OM0000</entry>
+	<entry key="BCRM-03000-OM0000">Operacion Exitosa</entry>
+	
+	<entry key="ERROR_FUN_01">BCRM-03000-OM0001</entry>
+	<entry key="BCRM-03000-OM0001">Datos de entrada invalidos</entry>
+	
+	<entry key="ERROR_FUN_501">BCRM-03000-OM0501</entry>
+	<entry key="BCRM-03000-OM0501">Se genero una falla funcional en el registro de auditoria</entry>	
+	
+	<!-- Mensajes de validacion de formato para errores tecnicos -->	
+	<entry key="ERROR_TEC_03">BCRM-03000-EM0003</entry>
+	<entry key="BCRM-03000-EM0003">Error de ejecucion</entry>
+	
+	<entry key="ERROR_TEC_04">BCRM-03000-EM0004</entry>
+	<entry key="BCRM-03000-EM0004">Error de comunicacion</entry>
+					
+	<!--Util MQQueueXMLSender-->
+	<entry key="FORMAT_FECHA">ddMMyyyy</entry> 
+	<entry key="TAG_PATH_VALUE">E:\MWAS\Extensiones\conciliacion\Cierre_Infosotf</entry>
+	<entry key="WSPTF_ATTEMPTS">3</entry>
+	<entry key="WSPTF_WAIT_TIME">500</entry>
+		
+	<!-- Conexion cola MQ -->
+	<entry key="MQ_SERVIDOR">CBNMQS05</entry>	
+	<entry key="MQ_IP">10.20.20.52</entry>	
+	<entry key="MQ_MANAGER">DIGI01.D.QM</entry>
+	<entry key="MQ_CHANNEL_CONEXION">BOTONDEPAGO.CH</entry>
+	<entry key="MQ_PORT">1414</entry>
+	<entry key="MQ_MSG_REQ">EARCPREP.REQ</entry>
+	<entry key="MQ_MSG_RESP"></entry>
+	<entry key="MQ_USER"></entry>
+	<entry key="MQ_PASSWORD"></entry>
+	<entry key="FORMAT_MSG_MQ">XML</entry>
+	<entry key="CHARACTER_MSG_MQ">1208</entry>
+	<entry key="ENCODING_MSG_MQ">546</entry>
+	<entry key="MESSAGE_FORMAT_MQ_IN">
+	<![CDATA[<MWAS>
+	<Hdr>
+		<Servicio>EARCPREP</Servicio>
+		<User/>
+		<Password/>
+		<Retcode/>
+		<Description/>
+		<Origen/>
+		<Destino/>
+		<ServDatos/>
+		<HTTPContext>X&apos;414d51204449474930362e542e514d2065c8b85220012508&apos;</HTTPContext>
+	</Hdr>
+	<Datos>E:\MWAS\Extensiones\conciliacion\Cierre_Infosotf\PruebaCM.txt</Datos>
+	</MWAS> ]]>	
+	</entry>
+	
+</properties>

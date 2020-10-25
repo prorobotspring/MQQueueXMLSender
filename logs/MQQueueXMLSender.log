@@ -1,0 +1,108 @@
+[2014-01-13 14:47:22,075][INFO ][][configurarLogger BSSIntLogger.java:67][APLICACION: MQQueueXMLSender - VERSION: 1.0]
+[2014-01-13 14:47:22,093][INFO ][][configurarLogger BSSIntLogger.java:69][DESCRIPCION: MQQueueXMLSender envia un xml con la ruta de un archivo a una cola MQ ]
+[2014-01-13 14:47:22,097][INFO ][][main MQQueueXMLSender.java:24][Iniciando invocacion de : MQQueueXMLSender]
+[2014-01-13 14:47:26,222][DEBUG][][init MQProxy.java:158][Inicializando los parametros MQ]
+[2014-01-13 14:47:26,284][INFO ][][init MQProxy.java:162][MQEnvironment.hostname: 10.20.20.52]
+[2014-01-13 14:47:26,288][INFO ][][init MQProxy.java:163][MQEnvironment.channel: BOTONDEPAGO.CH]
+[2014-01-13 14:47:26,293][INFO ][][init MQProxy.java:164][MQEnvironment.port: 1414]
+[2014-01-13 14:47:26,297][INFO ][][init MQProxy.java:165][MQEnvironment.userID: ]
+[2014-01-13 14:47:26,301][INFO ][][init MQProxy.java:166][MQEnvironment.password : ]
+[2014-01-13 14:47:26,734][INFO ][][init SendMessageMQDelegator.java:89][Cargado el Contexto del delegador SendMessageMQDelegator]
+[2014-01-13 14:47:26,744][INFO ][][init FormatXMLMessageDelegator.java:68][Contexto Cargado ve.com.digitel.mqqueuexmlsender.delegator.FormatXMLMessageDelegator]
+[2014-01-13 14:47:26,826][DEBUG][][execute MQQueueXMLSenderBusiness.java:52][Iniciando ejecucion de ve.com.digitel.mqqueuexmlsender.business.MQQueueXMLSenderBusiness]
+[2014-01-13 14:47:26,827][DEBUG][][makeDecision FormatXMLMessageDelegator.java:80][Iniciando invocacion al Delegator: ve.com.digitel.mqqueuexmlsender.delegator.FormatXMLMessageDelegator]
+[2014-01-13 14:47:26,831][DEBUG][][makeDecision SendMessageMQDelegator.java:100][Iniciando invocacion del Delegator: SendMessageMQDelegator]
+[2014-01-13 14:47:26,833][DEBUG][][makeDecision SendMessageMQDelegator.java:110][Invocando al MQProxy]
+[2014-01-13 14:47:26,987][DEBUG][][sendMessage MQProxy.java:239][Encolando | Cola = EARCPREP.REQ | Mensaje = <com.ibm.mq.MQMessage>
+  <report>0</report>
+  <messageType>8</messageType>
+  <expiry>-1</expiry>
+  <feedback>0</feedback>
+  <encoding>546</encoding>
+  <characterSet>1208</characterSet>
+  <format>XML</format>
+  <priority>-1</priority>
+  <persistence>2</persistence>
+  <backoutCount>0</backoutCount>
+  <replyToQueueName></replyToQueueName>
+  <replyToQueueManagerName></replyToQueueManagerName>
+  <userId></userId>
+  <accountingToken>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</accountingToken>
+  <applicationIdData></applicationIdData>
+  <putApplicationType>0</putApplicationType>
+  <putApplicationName></putApplicationName>
+  <applicationOriginData></applicationOriginData>
+  <groupId>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</groupId>
+  <messageSequenceNumber>1</messageSequenceNumber>
+  <offset>0</offset>
+  <messageFlags>0</messageFlags>
+  <originalLength>-1</originalLength>
+  <putDate></putDate>
+  <putTime></putTime>
+  <version>2</version>
+  <cachedCcsid>0</cachedCcsid>
+  <dataBuffer></dataBuffer>
+  <__readBytes>
+    <buf reference="../../dataBuffer"/>
+    <pos>0</pos>
+    <mark>0</mark>
+    <count>0</count>
+  </__readBytes>
+  <__writeBytes>
+    <buf>Cgk8TVdBUz4KCTxIZHI+CgkJPFNlcnZpY2lvPkVBUkNQUkVQPC9TZXJ2aWNpbz4KCQk8VXNlci8+
+CgkJPFBhc3N3b3JkLz4KCQk8UmV0Y29kZS8+CgkJPERlc2NyaXB0aW9uLz4KCQk8T3JpZ2VuLz4K
+CQk8RGVzdGluby8+CgkJPFNlcnZEYXRvcy8+CgkJPEhUVFBDb250ZXh0PlgmYXBvczs0MTRkNTEy
+MDQ0NDk0NzQ5MzAzNjJlNTQyZTUxNGQyMDY1YzhiODUyMjAwMTI1MDgmYXBvczs8L0hUVFBDb250
+ZXh0PgoJPC9IZHI+Cgk8RGF0b3M+RTpcTVdBU1xFeHRlbnNpb25lc1xjb25jaWxpYWNpb25cQ2ll
+cnJlX0luZm9zb3RmXFBydWViYUNNLnR4dDwvRGF0b3M+Cgk8L01XQVM+IAkKCQ==</buf>
+    <count>331</count>
+  </__writeBytes>
+  <readStream>
+    <in class="java.io.ByteArrayInputStream" reference="../../__readBytes"/>
+    <bytearr>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</bytearr>
+    <chararr>&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;</chararr>
+    <readBuffer>AAAAAAAAAAA=</readBuffer>
+  </readStream>
+  <writeStream>
+    <out class="java.io.ByteArrayOutputStream" reference="../../__writeBytes"/>
+    <written>331</written>
+    <writeBuffer>AAAAAAAAAAA=</writeBuffer>
+  </writeStream>
+  <mode>2</mode>
+  <cursorPos>0</cursorPos>
+  <__dataLength>0</__dataLength>
+  <__totalMessageLength>0</__totalMessageLength>
+  <__bufferSizeHint>-1</__bufferSizeHint>
+  <reversingBuffer>AAAAAAAAAAA=</reversingBuffer>
+  <reversingOutBytes>
+    <buf>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</buf>
+    <count>0</count>
+  </reversingOutBytes>
+  <reversingOutStream>
+    <out class="java.io.ByteArrayOutputStream" reference="../../reversingOutBytes"/>
+    <written>0</written>
+    <writeBuffer>AAAAAAAAAAA=</writeBuffer>
+  </reversingOutStream>
+  <isEbcdicDbcs>false</isEbcdicDbcs>
+</com.ibm.mq.MQMessage>]
+[2014-01-13 14:47:26,996][DEBUG][][sendMessage MQProxy.java:245][requerimiento: 
+	<MWAS>
+	<Hdr>
+		<Servicio>EARCPREP</Servicio>
+		<User/>
+		<Password/>
+		<Retcode/>
+		<Description/>
+		<Origen/>
+		<Destino/>
+		<ServDatos/>
+		<HTTPContext>X&apos;414d51204449474930362e542e514d2065c8b85220012508&apos;</HTTPContext>
+	</Hdr>
+	<Datos>E:\MWAS\Extensiones\conciliacion\Cierre_Infosotf\PruebaCM.txt</Datos>
+	</MWAS> 	
+	]
+[2014-01-13 14:47:26,998][INFO ][][makeDecision SendMessageMQDelegator.java:115][Se envio el mensaje a la cola MQ de manera exitosa]
+[2014-01-13 14:47:26,999][DEBUG][][makeDecision SendMessageMQDelegator.java:144][Finalizando invocacion del Delegator: SendMessageMQDelegator]
+[2014-01-13 14:47:27,001][DEBUG][][doExecute SendMessageApprovalDelegator.java:58][Culminacion del MQQueueXMLSender]
+[2014-01-13 14:47:27,033][DEBUG][][execute MQQueueXMLSenderBusiness.java:67][Finalizado ejecucion de ve.com.digitel.mqqueuexmlsender.business.MQQueueXMLSenderBusiness]
